@@ -1,3 +1,5 @@
+package ProcedurinisProgramavimas;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -25,8 +27,8 @@ public class Labarotinis_2 {//Labarotinis_2_3_1  final num is iteration
                     biggestElement = i;
                 }
             }
-            int indexOfBiggestNegativeInt= list.indexOf(biggestElement);
-            System.out.print(indexOfBiggestNegativeInt+1);
+            int indexOfBiggestNegativeInt = list.indexOf(biggestElement);
+            System.out.print(indexOfBiggestNegativeInt + 1);
         } else {
             System.out.println("NERA");
         }
