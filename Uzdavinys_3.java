@@ -16,7 +16,7 @@ public class Labarotinis_2 {//Labarotinis_2_3_1  final num is iteration
         for (int i : list) {
             if (i % 2 == 0 && i != 0) {
                 isEven = true;
-                smallestElement = list.get(0);
+                smallestElement = i;
             }
         }
         if (isEven) {
