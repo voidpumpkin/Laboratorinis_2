@@ -1,2 +1,0 @@
-# Laboratorinis_2
-Procedurinio programavimo Laboratorinis_2
