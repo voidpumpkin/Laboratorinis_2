@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_2_1  final num is iteration
+public class Labarotinis_2 {//Labarotinis_2_7_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
