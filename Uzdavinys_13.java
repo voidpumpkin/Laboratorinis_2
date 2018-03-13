@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_9_1  final num is iteration
+public class Labarotinis_2 {//Labarotinis_2_13_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
