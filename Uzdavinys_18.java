@@ -1,20 +1,23 @@
+package ProcedurinisProgramavimas;
+
+
 import java.util.*;
 
-public class Labarotinis_2 {//Labarotinis_2_17_1  final num is iteration
+public class Labarotinis_2 {//Labarotinis_2_18_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int a, b, c;
+        double a, b, c;
         for (int i = 0; i < n; i++) {
-            a = scanner.nextInt();
-            b = scanner.nextInt();
-            c = scanner.nextInt();
+            a = scanner.nextDouble();
+            b = scanner.nextDouble();
+            c = scanner.nextDouble();
             System.out.println(getEquadraticEquationSolutionAmount(a, b, c));
         }
     }
 
-    public static int getEquadraticEquationSolutionAmount(int a, int b, int c) {
+    public static int getEquadraticEquationSolutionAmount(double a, double b, double c) {
         if(a == 0 && b == 0 && c != 0){
             return 0;
         }else if((a == 0 && b == 0 && c == 0)) {
@@ -22,7 +25,8 @@ public class Labarotinis_2 {//Labarotinis_2_17_1  final num is iteration
         }else if((a == 0 && b != 0 && c == 0)||(a == 0 && b != 0 && c != 0)){
             return 1;
         }else {
-            int discriminant = (b * b) - (4 * a * c);
+            double discriminant = (b * b) - (4 * a * c);
+            //System.out.println("dis "+discriminant);
             if (discriminant < 0) {
                 return 0;
             } else if (discriminant == 0) {
