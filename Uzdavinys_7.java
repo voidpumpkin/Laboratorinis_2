@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_7_1  final num is iteration
+public class Uzdavinys_7 {//Labarotinis_2_7_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Labarotinis_2 {//Labarotinis_2_7_1  final num is iteration
         if (n < 2) {
             System.out.println("No");
         } else {
-            List<Integer> list = new ArrayList<Integer>(n * m);
+            List<Integer> list = new ArrayList<>(n * m);
             for (int i = 0; i < n * m; i++) {
                 list.add(scanner.nextInt());
             }

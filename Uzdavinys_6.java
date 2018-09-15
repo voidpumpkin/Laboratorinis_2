@@ -2,15 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_3_1  final num is iteration
+public class Uzdavinys_6 {//Labarotinis_2_3_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        List<List<Integer>> list = new ArrayList<List<Integer>>(n);
+        List<List<Integer>> list = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
-            list.add(new ArrayList<Integer>(m));
+            list.add(new ArrayList<>(m));
             for (int j = 0; j < m; j++) {
                 list.get(i).add(scanner.nextInt());
             }

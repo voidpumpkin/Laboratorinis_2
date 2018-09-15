@@ -1,9 +1,6 @@
-package ProcedurinisProgramavimas;
-
-
 import java.util.*;
 
-public class Labarotinis_2 {//Labarotinis_2_18_1  final num is iteration
+public class Uzdavinys_18 {//Labarotinis_2_18_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +14,7 @@ public class Labarotinis_2 {//Labarotinis_2_18_1  final num is iteration
         }
     }
 
-    public static int getEquadraticEquationSolutionAmount(double a, double b, double c) {
+    private static int getEquadraticEquationSolutionAmount(double a, double b, double c) {
         if(a == 0 && b == 0 && c != 0){
             return 0;
         }else if((a == 0 && b == 0 && c == 0)) {

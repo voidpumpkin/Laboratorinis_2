@@ -3,12 +3,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_14_1  final num is iteration
+public class Uzdavinys_14 {//Labarotinis_2_14_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        List<Integer> list = new ArrayList<Integer>(n);
+        List<Integer> list = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
             list.add(scanner.nextInt());
         }

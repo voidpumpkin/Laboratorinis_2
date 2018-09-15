@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_1_1  final num is iteration
+public class Uzdavinys_1 {//Labarotinis_2_1_1  final num is iteration
     public static void main(String[] args) {
         int sum = 0;
         Scanner scanner = new Scanner(System.in);

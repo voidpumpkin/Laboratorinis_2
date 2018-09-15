@@ -1,11 +1,8 @@
-package ProcedurinisProgramavimas;
-
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_20_1  final num is iteration
+public class Uzdavinys_20 {//Labarotinis_2_20_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

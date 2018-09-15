@@ -1,9 +1,6 @@
-package ProcedurinisProgramavimas;
-
-
 import java.util.*;
 
-public class Labarotinis_2 {//Labarotinis_2_15_3  final num is iteration
+public class Uzdavinys_15 {//Labarotinis_2_15_3  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,12 +9,12 @@ public class Labarotinis_2 {//Labarotinis_2_15_3  final num is iteration
         System.out.print(executeTask(number, n));
     }
 
-    public static int executeTask(int number, long n) {
+    private static int executeTask(int number, long n) {
         List<Integer> list;
         int min, max;
         int copyOfNumber=0;
         for (long a = 1; a < n; a++) {
-            list = new ArrayList<Integer>();
+            list = new ArrayList<>();
             list.add(number / 1000);
             number = number - list.get(0) * 1000;
             list.add(number / 100);

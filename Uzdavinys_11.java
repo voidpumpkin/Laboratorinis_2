@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Labarotinis_2 {//Labarotinis_2_11_1  final num is iteration
+public class Uzdavinys_11 {//Labarotinis_2_11_1  final num is iteration
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        List<List<Character>> list = new ArrayList<List<Character>>(n);
+        List<List<Character>> list = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
-            list.add(new ArrayList<Character>(n));
+            list.add(new ArrayList<>(n));
             for (int j = 0; j < n; j++) {
                 list.get(i).add('-');
             }
